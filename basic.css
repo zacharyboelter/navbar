@@ -26,10 +26,12 @@ html, body {
     background: transparent;
     border-bottom: 1px solid #ffeead;
     color: #ffeead;
+
 }
 
 ::placeholder{
     color: #ffeead;
+    font-size: 2em;
 }
 
 .search-input:focus {
