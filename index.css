@@ -6,3 +6,29 @@
 .search {
     flex: 1;
 }
+
+.search > input {
+    font-size: .5em;
+    padding-bottom: 5px;
+}
+
+@media all and (max-width: 800px) {
+    .container {
+        flex-wrap: wrap;
+    }
+    .container > li {
+        flex: 1 1 50%;
+    }
+    .search > input {
+        text-align: center;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .container > li {
+        flex: 1 1 100%;
+    }
+    .search {
+        order: 1;
+    }
+}
